@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Clase 5</title>
+</head>
+<body>
+    
+    <header class="nave"> <!-- Cabecera -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">acerca de</a></li>
+                <li><a href="#">test1</a></li>
+                <li><a href="#">test2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main>  <!-- Cuerpo -->
+        <div class="for">
+            <form action="index.html" method="get">
+                <h3>Ingresa tus datos</h3>
+                <p>Nombre: <input type="text" name="name" placeholder="Esteban" required></p>
+                <p>Apellido: <input type="text" name="apellido" placeholder="quito" required></p>
+                <p>Correo: <input type="email" name="Email" placeholder="dominio@dominio.com" required></p>
+                <p>Genero: 
+                    <ul class="gen">
+                        <li><p>Masculino <input type="checkbox" name="Masculino"></p></li>
+                        <li><p>Femenino <input type="checkbox" name="Femenino"></p></li>
+                        <li><p>Otro <input type="checkbox" name="Otro"></p></li>
+                    </ul>
+                </p>
+                <p>Acerca de ti:</p>
+                <textarea name="coment" cols="100" rows="20" required></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar" class="reset">
+
+            </form>
+        </div>
+    </main>
+    <br>
+    <footer>  
+        <div class="re"><p><u><b>Nuestra redes:</b></u></p></div>
+        <div class="f">
+        <ul class="n">
+            <li><a href="#">inicio</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">acerca de</a></li>
+            <li><a href="#horarios">Horario</a></li>
+            <li><a href="#contactanos">contactanos</a></li>  
+        </ul>
+        <ul class="r">
+            <li><a href="https://discord.com/" >Discord</a></li>
+            <li><a href="https://twitter.com/" target="_blank">X (ex twitter)</a></li>
+            <li><a href="https://Instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a></li>
+        </ul>
+        </div>
+        <p class="p">&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>

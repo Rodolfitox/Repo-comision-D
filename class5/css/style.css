@@ -1,0 +1,104 @@
+/* Header */
+.nave {
+    background-color: gray;
+    height: 40px;
+    width: 100%;
+}
+
+.nave ul {
+    display: flex;
+    list-style: none;
+}
+
+.nave ul li {
+    padding: 10px;
+    align-items: center;
+}
+
+.nave a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+/* Formulario */
+
+.for {
+    background-color: orange;
+    align-items: center;
+    width:46%;
+    height: 693px;
+}
+
+.for {
+    padding-left: 15px;
+}
+
+.for ul {
+    list-style: none;
+}
+
+.for h3 {
+    text-align: center;
+}
+
+.for p {
+    font-size: 18px;
+}
+
+input[type=reset] {
+    position: absolute;
+    width: 100px;
+    right: 920px;
+}
+
+/* Footer */
+
+footer {
+    background-color: gray;
+    height: 160px;
+    width: 100%;
+}
+.p {
+    text-align: center;
+}
+
+.f {
+    display: flex;
+}
+
+.re {
+    position: absolute;
+    width: 100px;
+    right: 210px;
+}
+
+.r {
+    position: absolute;
+    width: 100px;
+    right: 100px;
+}
+
+.r li {
+    list-style: none;
+}
+
+.r a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.n li {
+    list-style: none;
+}
+
+.n a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
