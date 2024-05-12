@@ -1,0 +1,67 @@
+body {
+    background-color: #535E5D;
+}
+
+.header {
+    background-color: #233331;
+    height: 80px;
+}
+
+header img  {
+    padding: 10px;
+}
+
+
+.deco {
+    list-style: none;
+}
+
+.deco a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    size: 10px;
+    background-color: #53918D;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* footer */
+
+footer {
+    height: 180px;
+    background-color: #333;
+    display: grid;
+    margin-top: auto;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+h5 {
+    color: #fff;
+}
+
+.copy {
+    color: #fff;
+}
